@@ -25,7 +25,8 @@ SECRET_KEY = "django-insecure-sw*9e(j1cm2g204anj%i1vt!wwtfk@0$)e$e@#^f4w4&vlw@8v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+# Add the codespace URL and localhost to ALLOWED_HOSTS
+ALLOWED_HOSTS = ['potential-goldfish-4r4gw667527jq5-8000.app.github.dev', 'localhost']
 
 
 # Application definition
